@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action = "sepet_toplam.php" method ="post">
+        <label for ="urunAdi">Ürün Adı:</label>
+        <input name ="urun_adi" id ="urun_adi" type="text" required>
+        <br>
+        <label for ="urunFiyat">Ürün Fiyat:</label>
+        <input name ="urun_fiyat" id="urun_fiyat" type="number" required>
+        <br>
+        <label for ="adet">Adet:</label>
+        <input name ="adet" id ="adet" type="number" required>
+        <br>
+        <label for ="kdv">KDV:</label>
+        <input name ="kdv" id ="kdv" type="number" min="20" required>
+        <br>
+        <label for ="indKod">İndirim Kodu:</label>
+        <input name ="indirim_kodu" id="indirim_kodu" type="text">
+        <br>
+        <button type="submit">Hesapla</button>
+    </form>
+</body>
+</html>
